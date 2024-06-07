@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "989605441897",
+    "project_id": "proyectougb-7d9b8",
+    "storage_bucket": "proyectougb-7d9b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989605441897:android:d6833a18299bcc69498df8",
+        "android_client_info": {
+          "package_name": "com.ugb.controlesbasicos20"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_VDfguNmgq9p4k1FTISpg5pBjkApibdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

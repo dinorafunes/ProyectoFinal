@@ -1,0 +1,14 @@
+<vector android:alpha="0.85" android:height="256dp"
+    android:viewportHeight="24" android:viewportWidth="24"
+    android:width="256dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#D8D8D8" android:fillType="evenOdd" android:pathData="M2,5L18,5L18,7L2,7L2,5ZM2,18L22,18L22,21L2,21L2,18ZM13,14L22,14L22,17L13,17L13,14Z"/>
+    <group>
+        <clip-path android:pathData="M2,5L18,5L18,7L2,7L2,5ZM2,18L22,18L22,21L2,21L2,18ZM13,14L22,14L22,17L13,17L13,14Z"/>
+        <path android:fillColor="#ff0000" android:fillType="evenOdd" android:pathData="M0,0h24v24h-24z"/>
+    </group>
+    <path android:fillColor="#000000" android:fillType="nonZero" android:pathData="M21,10L21,8L18,8L3,8L3,20L21,20L21,18L13,18C12.448,18 12,17.552 12,17L12,11C12,10.448 12.448,10 13,10L21,10ZM21,12L14,12L14,16L21,16L21,12ZM17,6L17,4L3,4L3,6L17,6ZM19,6L21,6C22.105,6 23,6.895 23,8L23,20C23,21.105 22.105,22 21,22L3,22C1.895,22 1,21.105 1,20L1,4C1,2.895 1.895,2 3,2L17,2C18.105,2 19,2.895 19,4L19,6ZM16,15C15.448,15 15,14.552 15,14C15,13.448 15.448,13 16,13C16.552,13 17,13.448 17,14C17,14.552 16.552,15 16,15Z"/>
+    <group>
+        <clip-path android:pathData="M21,10L21,8L18,8L3,8L3,20L21,20L21,18L13,18C12.448,18 12,17.552 12,17L12,11C12,10.448 12.448,10 13,10L21,10ZM21,12L14,12L14,16L21,16L21,12ZM17,6L17,4L3,4L3,6L17,6ZM19,6L21,6C22.105,6 23,6.895 23,8L23,20C23,21.105 22.105,22 21,22L3,22C1.895,22 1,21.105 1,20L1,4C1,2.895 1.895,2 3,2L17,2C18.105,2 19,2.895 19,4L19,6ZM16,15C15.448,15 15,14.552 15,14C15,13.448 15.448,13 16,13C16.552,13 17,13.448 17,14C17,14.552 16.552,15 16,15Z"/>
+        <path android:fillColor="#0000ff" android:fillType="evenOdd" android:pathData="M0,0h24v24h-24z"/>
+    </group>
+</vector>

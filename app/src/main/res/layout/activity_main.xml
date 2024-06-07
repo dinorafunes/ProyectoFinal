@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMain">
+
+    <TabHost
+        android:id="@+id/tbhMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/tabInicio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/btnActUser"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgFotoUser"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/ic_manage360_user1"
+                                android:scaleType="centerCrop" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/lblNameUser"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:hint="Name"
+                            android:textSize="30dp" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnChatSupport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="50dp"
+                        android:text="Soporte Tecnico"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/lblCountProdM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:hint="Productos"
+                        android:textAlignment="center"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/lblCountStockM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:hint="En Stock"
+                        android:textAlignment="center"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/lblCountVentM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:hint="Ventas"
+                        android:textAlignment="center"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/lblCountGananciaM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:hint="Ganancia"
+                        android:textAlignment="center"
+                        android:textSize="30dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/tabInventario"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:text="Detalle de Productos"
+                        android:textAlignment="center"
+                        android:textSize="40dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:hint="Productos"
+                        android:textAlignment="center"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/lblCountProd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:hint="Productos"
+                        android:textAlignment="center"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:hint="Stock"
+                        android:textAlignment="center"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/lblCountStock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:hint="En Stock"
+                        android:textAlignment="center"
+                        android:textSize="30dp" />
+
+                    <Button
+                        android:id="@+id/btnVistaProductos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:text="Abrir inventario"
+                        android:textSize="25dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tabFinanzas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:text="Detalle de Ventas"
+                        android:textAlignment="center"
+                        android:textSize="40dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:hint="Ventas"
+                        android:textAlignment="center"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/lblCountVent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:hint="Ventas"
+                        android:textAlignment="center"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:hint="Ganancia"
+                        android:textAlignment="center"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/lblCountGanancia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:hint="Ganancia"
+                        android:textAlignment="center"
+                        android:textSize="30dp" />
+
+                    <Button
+                        android:id="@+id/btnVistaFinanzas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:text="Abrir ventas"
+                        android:textSize="25dp" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true" />
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>
